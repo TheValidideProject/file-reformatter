@@ -27,3 +27,21 @@ Run the Flask server to use a web interface for converting images. After startin
 ```bash
 python webapp.py
 ```
+
+## Running in GitHub Codespaces
+
+1. Open this repository in a GitHub Codespace.
+2. Install the Python dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Start the Flask server:
+
+   ```bash
+   python webapp.py
+   ```
+
+4. In the **Ports** tab, expose port 5000 and open it in the browser.
+5. Drag and drop `.heic` or `.heif` files onto the page to download the converted PNG images.
